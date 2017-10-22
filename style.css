@@ -239,33 +239,121 @@ input[type=submit] {
 }
 
 
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 980px) {
-  body {background-color: pink;}
-  .container {width: 40%;
-              margin-left: 20%;
-              margin-right: 10%}
-  #masthead {
-            table-layout: fixed;
-            text-overflow: none;
-            
+  body {
+    background-color: pink;
+  }   
+  header {
+    width: 100%;
+    padding: 0 90px 0 90px;
   }
-}
-  #sidebar {
-            width: 30%;}
+
+  #main-container {
+    padding: 0 90px 0 90px;
 
   }
+
+  .main-section { 
+    width:50%; 
+    margin-top: 15%;
+    margin-right: 20px;
+    position: relative;
+    padding: 15px;
+  }
+
+
+   .sidebar {
+    margin-top: 15%;
+    position: relative;
+    width: 100%;
+    }
+   img {
+    position: relative;
+
+   }
+}
   
 
 
 
 @media only screen and (max-width: 768px) {
-  body {background-color: blue;}
-  .container {width: 30%;}
+  body {
+    background-color: blue;
+
+  }
+  
+  header {
+    width: 100%;
+    padding: 0 10px 0 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: absolute;
+  }
+
+  
+
+  .main-section {width: 100%;
+      padding: 0 10px 0 10px; 
+      display: inline-block;
+      overflow: block;
+      margin-left: 0;
+      float: left;
+      margin-top: 20%;
+      }
+
+  
+
+  .sidebar {
+    max-width: 100%;
+    margin: 0;
+   
+   float: left;
+
+    
+    clear: both;}
+
+  img {
+  width:200px;
+  height:200px;
+  }
+  
+  .work {margin-right: 20px;
+    margin-bottom: 15px;}
+
+ 
+  
+  
+  
+ }
 
 
 
 @media only screen and (max-width: 640px) {
   body {background-color: green;}
+  #logo {width: 100%;
+    padding: 0;
+   margin: 0;}
+  
+
+
+  .sidebar {
+    max-width: 100%;
+    margin: 0;
+   
+   float: left;
+
+    
+    clear: both;}
+
 }
 
 
