@@ -302,9 +302,9 @@ input[type=submit] {
   
 
   .main-section {width: 100%;
-      padding: 0 10px 0 10px; 
-      display: inline-block;
-      overflow: block;
+      max-width: 750px;
+      padding: 30px; 
+   
       margin-left: 0;
       float: left;
       margin-top: 20%;
@@ -327,10 +327,15 @@ input[type=submit] {
   }
   
   .work {margin-right: 20px;
-    margin-bottom: 15px;}
+    margin-bottom: 15px;
+    float: left;}
 
  
-  
+  nav {
+    float: left;
+    padding-left: 90px;
+    font-size: 20px;
+  }
   
   
  }
