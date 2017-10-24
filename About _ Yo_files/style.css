@@ -258,10 +258,8 @@ input[type=submit] {
   }
 
   #main-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
     padding: 0 90px 0 90px;
+
   }
 
   .main-section { 
@@ -273,30 +271,14 @@ input[type=submit] {
   }
 
 
-  nav {
-    float: right;
-   position: relative;
-  }
-
-  nav a {
-  display: inline-block;}
-
    .sidebar {
     margin-top: 15%;
     position: relative;
     width: 100%;
-    float: left;
     }
    img {
     position: relative;
-    
-    
 
-   }
-
-   h3 {
-    
-    
    }
 }
   
@@ -309,11 +291,6 @@ input[type=submit] {
 
   }
   
-
-  #logo {
-    width: 300px;
-  }
-
   header {
     width: 100%;
     padding: 0 10px 0 10px;
@@ -322,38 +299,26 @@ input[type=submit] {
     position: absolute;
   }
 
-
-  #main-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
-    max-width: 720px;
-  }
   
 
-  .main-section {
-    width: 720px;
-      max-width: 720px;
+  .main-section {width: 100%;
+      max-width: 750px;
       padding: 30px; 
-   clear:;
-      margin-left: -13%;
-      margin-right: auto;
+   
+      margin-left: 0;
       float: left;
       margin-top: 20%;
-      margin-bottom: 20px;
       }
 
   
 
   .sidebar {
     max-width: 100%;
-    margin-top: 10px;
+    margin: 0;
    
    float: left;
-  margin-left:-13%;
-    width: 720px;
-    max-width: 720px;
-  
+
+    
     clear: both;}
 
   img {
@@ -367,9 +332,9 @@ input[type=submit] {
 
  
   nav {
-    float: right;
-    padding-right: 20px;
-    font-size: 20px;
+    float: left;
+    padding-left: 90px;
+    font-size: 24px;
   }
   
   
@@ -386,20 +351,14 @@ input[type=submit] {
 
 
   .sidebar {
-    max-width: 600px;
+    max-width: 100%;
     margin: 0;
    
    float: left;
-  margin-left: -14%;
+
     
     clear: both;}
 
 }
-nav {float: left;
-  margin-left: 25%;
-}
 
-.main-section {margin-top: 32%;
-width: 600px;
-margin-left: -14%;}
 
