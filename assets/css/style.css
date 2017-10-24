@@ -326,8 +326,8 @@ input[type=submit] {
   #main-container {
     margin-left: auto;
     margin-right: auto;
-    width: 720px;
-    max-width: 720px;
+    width: 765px;
+    max-width: 765px;
   }
   
 
@@ -386,6 +386,22 @@ input[type=submit] {
 
 
   .sidebar {
+    max-width: 100%;
+    margin: 0;
+   
+   float: left;
+
+    
+    clear: both;}
+
+
+  #logo {width: 100%;
+    padding: 0;
+   margin: 0;}
+  
+
+
+  .sidebar {
     max-width: 600px;
     margin: 0;
    
@@ -394,7 +410,7 @@ input[type=submit] {
     
     clear: both;}
 
-}
+
 nav {float: left;
   margin-left: 25%;
 }
@@ -402,4 +418,14 @@ nav {float: left;
 .main-section {margin-top: 32%;
 width: 600px;
 margin-left: -14%;}
+
+}
+
+
+
+
+
+
+}
+
 
